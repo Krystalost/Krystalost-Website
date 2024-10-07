@@ -6,3 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
         bar.style.width = skill;
     });
 });
+// script.js
+document.getElementById('youtubeLink').addEventListener('click', function(event) {
+    event.preventDefault(); // Bağlantının normal işlevini durdur
+    alert('Bu bağlantıya tıkladığınızda, YouTube sayfasına yönlendirileceksiniz!');
+    window.location.href = this.href; // Bağlantıya yönlendir
+});
