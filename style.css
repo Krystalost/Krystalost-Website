@@ -3,19 +3,19 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #FF7F00;
 }
 
 header {
-    background: #35424a;
+    background: #000000;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
 
 nav {
-    background: #35424a;
-    color: #ffffff;
+    background: #000000;
+    color: #000000;
 }
 
 nav ul {
@@ -47,7 +47,7 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #35424a;
+    background: #000000;
     color: #ffffff;
 }
 
@@ -56,14 +56,14 @@ footer {
 }
 
 .progress-bar {
-    background: #e0e0e0;
+    background: #f10000;
     border-radius: 5px;
     overflow: hidden;
     height: 20px;
 }
 
 .progress {
-    background: #35424a;
+    background: #FF7F00;
     height: 100%;
     width: 0;
     transition: width 2s ease-in-out; /* Smooth animation */
